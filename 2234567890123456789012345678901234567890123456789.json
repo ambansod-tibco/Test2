@@ -1,0 +1,39 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "2234567890123456789012345678901234567890123456789",
+    "description": "",
+    "version": "12345678901234567890123456789012343"
+  },
+  "paths": {
+    "/test": {
+      "get": {
+        "summary": "",
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "success response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "msg": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": [
+                  {
+                    "msg": "success"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
